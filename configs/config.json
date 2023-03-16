@@ -1,0 +1,26 @@
+{
+  
+  "uploadPath": "public/uploads/",
+  "uploadAccessPath": "uploads/",
+
+  "api": {
+    "loginSuccess": "Login successfull.",
+    "userNotFound": "User not found.",
+    "loginFail": "Login failed.",
+    "registerSuccess": "Student registered successfully !!",
+    "registerFail": "Already registered with same number or email."    
+  },
+
+  "responseCode": {
+    "success": 200,
+    "error": 0,
+    "exception": 500,
+    "notFoud": 404,
+    "alreadyExist":409
+  },
+  
+  "token":{
+    "apiTokenExpiry":"1m"
+  }
+
+}

@@ -1,0 +1,18 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Task_Project
+  description: Rumble API Application
+  contact:
+    name: TaskProject
+    url: 'http://xyz.com/TaskProject/'
+host: '3.12.178.169:3000'
+basePath: /1.0.0/PROD/
+schemes:
+  - http
+securityDefinitions:
+  JWT:
+    type: apiKey
+    name: x-access-token
+    in: header
+    description: Enter valid API authorization token
